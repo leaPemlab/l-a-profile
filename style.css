@@ -1,0 +1,107 @@
+body {
+    background-color: #FFEBE3;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: #F191F2;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+p, ul {
+    color: #AB111D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #CDBBA7;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* custome design class*/
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+.card_white {
+    background-color: white;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+    text-align: center;
+}
+
+.img_circle {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.btn_blue {
+    background-color: #080A40;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+
+.btn_blue:hover {
+    background-color: black;
+    color: white;
+}
+
+.list_inlign {
+    list-style: none;
+}
+
+.list_inlign li {
+    display: inline;
+    padding: 10px;
+}
+
+.list_inlign i {
+    color: #f27166;
+    font-size: 50px;
+}
+
+#introduction p {
+    margin-bottom: 50px;
+}
